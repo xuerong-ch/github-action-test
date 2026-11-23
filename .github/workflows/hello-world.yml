@@ -1,0 +1,22 @@
+
+name: Hello World
+
+on:
+  workflow_dispatch:
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Saludar
+        run: echo "Hola Mundo desde GitHub Actions!"
+
+      - name: Mostrar informacion del runner
+        run: |
+          echo "Usuario:"
+          whoami
+          echo "Sistema operativo:"
+          uname -a
+          echo "Directorio actual:"
+          pwd
