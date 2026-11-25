@@ -1,0 +1,20 @@
+TÍTULO
+Implementar división en la calculadora de github-action-test
+
+DESCRIPCIÓN
+Repositorio: https://github.com/xuerong-ch/github-action-test
+Documentación preparada: docs/01_proyecto_confluence.txt.
+Añadir aquí el enlace a la página de Confluence cuando esté publicada.
+
+La base implementa suma, resta y multiplicación. Completar únicamente la
+división en calculator.py y actualizar pruebas y README.
+
+Aceptar resultados positivos, negativos, decimales y cero como numerador.
+Rechazar divisor cero con ZeroDivisionError y mensaje legible.
+La CLI debe devolver código 2 en ese caso, sin traceback.
+Ejecutar: python -m unittest discover -s tests -v.
+Ver los ejemplos de aceptación en docs/01_proyecto_confluence.txt.
+
+EVIDENCIA ESPERADA
+Rama y PR que referencien la clave Jira; pruebas nuevas y existentes correctas;
+ejecución CI asociada al commit del PR. Registrar enlaces y resultado en Jira.
